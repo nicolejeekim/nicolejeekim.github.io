@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	color: #000000;
+	margin: 0;
+}
+
+.bluebackground {
+	/*background-color: #0033CC;*/
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.bigger {
+	font-size: 40px;
+}
+
+#aboutme {
+/*	color: white;
+	background-color: #0033CC;*/
+	margin: 3% 10% 20% 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 8%;
+}
+
+
+.bluebackground {
+	/*background-color: #0033CC;*/
+}
+
+.title {
+	font-style: bold;
+	font-size: 26px;
+	padding-top: 9%;
+	margin-top: -8%;
+}
+
+#bookcover {
+	width: 60%;
+	margin-left: 42%;
+	margin-right: -2%;
+	margin-top: -10%;
+	opacity: 0.8;
+}
+
+#layerquote {
+	position: absolute;
+	margin: -80% 40% 10% 0%;
+	font-size: 16px;
+	position: relative;
+	padding-left: 10%;
+}
+
+.quote {
+	margin: -28% 2% 20% 10%;
+	font-size: 16px;
+	position: relative;
+	padding-left: 10%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: 0.2;
+}
+
+#home {
+	text-align: center;
+	width: 50%;
+	margin-left: 70%;
+	margin-top: 6%;
+	font-size: 20px;
+}
