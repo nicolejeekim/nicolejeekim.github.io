@@ -2,7 +2,8 @@
 
 body {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 1.4;
 	color: #000000;
 	margin: 0;
 }
@@ -21,9 +22,26 @@ body {
 
 .title {
 	font-style: bold;
-	font-size: 26px;
+	font-size: 30px;
 	padding-top: 9%;
 	margin-top: -8%;
+/*	transition: font-size 2s, color 2s;*/
+	animation: animate-type 3s infinite alternate;
+}
+
+
+@keyframes animate-type {
+	0% {
+		transform: scale(1, 1);
+		transform-origin: 0 0;
+		font-size: 400;
+	}
+
+	100% {
+		transform: scale(1.3, 1);
+		transform-origin: 0 0;
+		font-size: 900;
+	}
 }
 
 #logo {
