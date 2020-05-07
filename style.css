@@ -1,5 +1,5 @@
-/*@import "compass/css3";
-*/
+@import "compass/css3";
+
 
 #aboutme {
 	position: fixed;
@@ -9,7 +9,12 @@
 	font-style: bold;
 	font-size: 30px;
 	z-index: 1;
+	/*font-variation-settings: "wdth" 100;*/
 }
+
+/*#aboutme:hover {
+	font-variation-settings: "wdth" 500;
+}*/
 
 nav {
 	position: fixed;
