@@ -13,20 +13,20 @@ body {
 
 .navigation {
 	/*font-family: 'Spectral', serif;*/
+	/*	font-family: europa, sans-serif;
+	font-weight: 700;
+	font-style: normal;*/
 	font-family: 'Frank Ruhl Libre', serif;
 	font-weight: 500;
 	font-size: 20px;
-/*	font-family: europa, sans-serif;
-	font-weight: 700;
-	font-style: normal;*/
 	line-height: 25px;
 	color: #979797;
 	padding-top: 10px;
+	font-weight: 600;
 }
 
 #current {
 	color: #E45F56;
-	font-weight: 700;
 }
 
 a {
@@ -36,7 +36,6 @@ a {
 
 a:hover {
 	color: #000000;
-	font-weight: 600;
 }
 
 #column_container {
