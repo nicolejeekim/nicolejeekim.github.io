@@ -22,8 +22,18 @@ body {
 }
 
 #current {
-	color: #000000;
+	color: #E45F56;
 	font-weight: 700;
+}
+
+a {
+	color: #979797;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	font-weight: 600;
 }
 
 #column_container {
