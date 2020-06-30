@@ -20,17 +20,17 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 25px;
-	color: #979797;
+	color: #B0B0B0;
 	padding-top: 10px;
 	font-weight: 600;
 }
 
 #current {
-	color: #E45F56;
+	color: #000000;
 }
 
 a {
-	color: #979797;
+	color: #B0B0B0;
 	text-decoration: none;
 }
 
