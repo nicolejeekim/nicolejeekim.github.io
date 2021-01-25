@@ -33,6 +33,18 @@ body {
 	font-weight: 600;
 }
 
+#bio {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+}
+
+#bio_sub {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
 #current {
 	color: #000000;
 }
