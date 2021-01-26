@@ -109,6 +109,11 @@ a:hover {
 
 /*Work Pages Styling*/
 
+.column2 {
+	float: left;
+	padding-bottom: 50px;
+}
+
 #portfolio { 
 	width: 600px;
 	margin: auto;
@@ -146,6 +151,14 @@ a:hover {
 .right_proj {
 	width: 66.67%;
 	height: 60px;
+}
+
+
+#footer {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 400;
+	text-align: center;
 }
 
 /*Unsorted
