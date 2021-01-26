@@ -126,6 +126,10 @@ a:hover {
 	color: gray;
 }
 
+.project_header {
+	margin-bottom: 100px;
+}
+
 .left {
 	width: 33.33%;
 	height: 200px;
@@ -134,6 +138,18 @@ a:hover {
 .right {
 	width: 66.67%;
 }
+
+.left_proj {
+	width: 33.33%;
+}
+
+.right_proj {
+	width: 66.67%;
+	height: 60px;
+}
+
+/*Unsorted
+*/
 
 .book {
 	padding-top: 10px;
@@ -166,7 +182,7 @@ a:hover {
 
 .description {
 	padding-top: 24px;
-	font-family: Muli;
+	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
