@@ -107,6 +107,24 @@ a:hover {
   }
 }*/
 
+/*Work Pages Styling*/
+
+#portfolio { 
+	width: 600px;
+	margin: auto;
+}
+
+.sub_portfolio {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 50px;
+}
+.year {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	color: gray;
+}
 
 .left {
 	width: 33.33%;
