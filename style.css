@@ -98,7 +98,12 @@ a:hover {
 
 .column {
 	float: left;
-	padding-bottom: 200px;
+	padding-bottom: 160px;
+}
+
+.column3 {
+	float: left;
+	padding-bottom: 80px;
 }
 
 /*@media screen and (max-width: 600px) {
@@ -248,7 +253,6 @@ a:hover {
 .bookspace {
 	margin-right: 40px;
 }
-
 
 
 /*
