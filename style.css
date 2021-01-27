@@ -222,6 +222,7 @@ a:hover {
 .book {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-weight: 400;
 }
 
 .category {
@@ -238,6 +239,7 @@ a:hover {
 	font-size: 32px;
 	line-height: 40px;
 	padding-top: 24px;
+	font-weight: 500;
 }
 
 .sub_header {
@@ -267,6 +269,7 @@ a:hover {
 
 .author {
 	color: #979797;
+	font-weight: 400;
 }
 
 /*Book Recs styling*/
