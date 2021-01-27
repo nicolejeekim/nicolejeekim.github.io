@@ -14,6 +14,36 @@ body {
 	margin-bottom: 100px;
 }
 
+/*Top Navigation Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-weight: 400;
+}
+
+li a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+}
+
+.active {
+	color: black;
+}
+
+#name_header {
+	color: black;
+	font-size: 40px;
+}
+
+/*Secondary Navigation*/
+
 .navigation_wrapper {
 	padding-top: 24px;
 	padding-bottom: 80px;
@@ -26,7 +56,20 @@ body {
 	line-height: 25px;
 	color: #B0B0B0;
 	padding-top: 10px;
-	font-weight: 600;
+}
+
+#large_bio {
+	font-size: 72px;
+	line-height: 90px;
+	color: #8C8C8C;
+	font-weight: 300;
+	padding: 100px 100px 40px 0px;
+	width: 800px;
+	margin: auto;
+}
+
+.highlight_text {
+	color: black;
 }
 
 #bio {
@@ -61,7 +104,7 @@ a:hover {
 #column_container {
 	width: 800px;
 	margin: auto;
-	padding-top: 140px;
+	padding-top: 70px;
 }
 
 #column_container2 {
@@ -164,6 +207,7 @@ a:hover {
 	line-height: 36px;
 	font-weight: 400;
 	text-align: center;
+	padding-top: 60px;
 }
 
 /*Unsorted
