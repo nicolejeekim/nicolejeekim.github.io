@@ -129,7 +129,7 @@ a:hover {
 
 .line {
 	width: 560px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #8C8C8C;
 	position: absolute;
 }
 
@@ -201,6 +201,12 @@ a:hover {
 	height: 60px;
 }
 
+
+/*About Page*/
+
+#about_description {
+	font-weight: 400;
+}
 
 #footer {
 	font-size: 24px;
