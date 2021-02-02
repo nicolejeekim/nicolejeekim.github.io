@@ -64,7 +64,7 @@ li a {
 	color: #8C8C8C;
 	font-weight: 300;
 	padding: 100px 100px 40px 0px;
-	width: 800px;
+	width: 1000px;
 	margin: auto;
 }
 
@@ -102,13 +102,13 @@ a:hover {
 }
 
 #column_container {
-	width: 800px;
+	width: 1000px;
 	margin: auto;
 	padding-top: 70px;
 }
 
 #column_container2 {
-	width: 800px;
+	width: 1000px;
 	margin: auto;
 	padding-top: 100px;
 }
@@ -149,12 +149,6 @@ a:hover {
 	padding-bottom: 80px;
 }
 
-/*@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}*/
-
 /*Work Pages Styling*/
 
 .column2 {
@@ -193,12 +187,85 @@ a:hover {
 }
 
 .left_proj {
-	width: 33.33%;
+	/*width: 33.33%;*/
+	width: 40%;
 }
 
 .right_proj {
-	width: 66.67%;
 	height: 60px;
+	width: 60%;
+}
+
+
+/*Project View Page*/
+
+body {
+	/*width: 100%;*/
+}
+
+.header_box {
+/*	background-color: #FF831B;
+	width: 100%;*/
+}
+
+.project_wide_header {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#column_container3 {
+	width: 800px;
+	margin: auto;
+}
+
+.left_proj2 {
+	width: 50%;
+	height: 300px;
+}
+
+.right_proj2 {
+	width: 50%;
+	height: 300px;
+}
+
+.header4 {
+	color: #8C8C8C;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.bodytext {
+	font-weight: 400;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+#containerimg {
+	width: 800px;
+	padding-bottom: 20px;
+}
+
+.img_row { 
+	width: 800px;
+	margin: auto;
+}
+
+.img_column {
+  float: left;
+  width: 240px;
+  height: 240px;
+}
+
+.imgspace {
+	margin-right: 40px;
+}
+
+
+#img_background {
+	width: 240px;
+	height: 240px;
 }
 
 
@@ -294,7 +361,6 @@ a:hover {
   float: left;
   width: 240px;
   height: 240px;
-  /*border: 1px solid #979797;*/
 }
 
 
