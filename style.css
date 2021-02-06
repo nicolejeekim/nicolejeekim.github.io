@@ -203,6 +203,36 @@ body {
 	/*width: 100%;*/
 }
 
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 70%);
+}
+
+.modal-close {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: black;
+	padding: 30px 45px;
+	cursor: pointer;
+}
+
+.modal-content {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	max-width: 1000px;
+	transform: translate(-50%, -50%);
+}
+
+.modal {
+	display: none;
+}
+
 .header_box {
 /*	background-color: #FF831B;
 	width: 100%;*/
@@ -248,8 +278,8 @@ body {
 }
 
 #containerimg {
-	width: 800px;
-	padding-bottom: 20px;
+	width: 780px;
+	padding-bottom: 10px;
 }
 
 .img_row { 
@@ -259,18 +289,18 @@ body {
 
 .img_column {
   float: left;
-  width: 240px;
-  height: 240px;
+  width: 400px;
+  height: 400px;
 }
 
 .imgspace {
-	margin-right: 40px;
+	padding-right: 20px;
 }
 
 
 #img_background {
-	width: 240px;
-	height: 240px;
+	width: 380px;
+	height: 380px;
 }
 
 

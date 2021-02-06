@@ -10,6 +10,7 @@
 	<!-- Font Links -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -40,24 +41,36 @@
 		<div class="header4">PROJECT OVERVIEW</div>
 		<div class="bodytext">Project Beyond is a volunteer-run platform for professional mentorship, created in response to Covid-19. Along with two other designers, I created the brand language and direction of Beyond from the ground up, and established its current social media presence.</div>
 	 </div>
-	 <div><a href="img/beyond/social.png"><img id="containerimg" src="img/beyond/social.png"></a></div>
+	 <div class="photos"><a href="img/beyond/social.png"><img id="containerimg" src="img/beyond/social.png"></a></div>
 	 <div class="img_row">
-		  <div class="img_column imgspace">
+		  <div class="img_column imgspace photos">
 			<a href="img/beyond/team.png"><img id="img_background" src="img/beyond/team.png" alt="social 1"></a>
 		  </div>
-		  <div class="img_column imgspace">
+		  <div class="img_column imgspace photos">
 			<a href="img/beyond/instapost.png"><img id="img_background" src="img/beyond/instapost.png" alt="social 2"></a>
 		  </div>
-		  <div class="img_column">
+	</div>
+	<div class="img_row">
+		<div class="img_column imgspace photos">
 			<a href="img/beyond/shoes.png"><img id="img_background" src="img/beyond/shoes.png" alt="social 3"></a>
 		  </div>
+	    <div class="img_column imgspace photos">
+			<a href="img/beyond/shoes.png"><img id="img_background" src="img/beyond/track.png" alt="social 4"></a>
+		  </div>
 	</div>
+</div>
+
+<div class="modal">
+	<div class="modal-background"></div>
+	<div class="modal-close">Close</div>
+	<div class="modal-content"></div>
 </div>
 
 <div id="column_container">
 	<div id="footer">
 	</div>
 </div>
-
+	<script src="js/jquery.js"></script>
+	<script src="js/modal.js"></script>
 </body>
 </html>
