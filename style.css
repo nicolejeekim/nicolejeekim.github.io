@@ -254,6 +254,12 @@ a:hover {
 .right_proj {
 	height: 60px;
 	width: 60%;
+	transition: transform .3s;
+}
+
+.right_proj:hover {
+	transform: scale(0.95);
+	opacity: 0.95;
 }
 
 
