@@ -63,7 +63,7 @@ li a {
 	line-height: 90px;
 	color: #8C8C8C;
 	font-weight: 300;
-	padding: 100px 225px 40px 0px;
+	padding: 80px 225px 20px 0px;
 	width: 1000px;
 	margin: auto;
 }
@@ -104,13 +104,13 @@ a:hover {
 #column_container {
 	width: 1000px;
 	margin: auto;
-	padding-top: 70px;
+	padding-top: 40px;
 }
 
 #column_container2 {
 	width: 1000px;
 	margin: auto;
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 
@@ -147,6 +147,30 @@ a:hover {
 .column3 {
 	float: left;
 	padding-bottom: 80px;
+}
+
+/*About Page*/
+.aboutColumn {
+	float: left;
+}
+
+#aboutColumn_container {
+	width: 800px;
+	margin: auto;
+	padding-top: 60px;
+}
+
+#aboutColumn_container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.line2 {
+	width: 800px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: auto;
+	padding: 20px 20px;
+	position: relative;
 }
 
 /*Work Pages Styling*/
@@ -349,7 +373,7 @@ body {
 	font-size: 26px;
 	line-height: 32px;
 	padding-top: 24px;
-	width: 200px;
+	width: 240px;
 }
 
 .description {
