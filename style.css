@@ -154,10 +154,20 @@ a:hover {
 	float: left;
 }
 
+.aboutColumn2 {
+	float: left;
+}
+
 #aboutColumn_container {
 	width: 800px;
 	margin: auto;
 	padding-top: 60px;
+}
+
+#aboutColumn_container2 {
+	width: 800px;
+	margin: auto;
+	padding-top: 40px;
 }
 
 #aboutColumn_container:after {
@@ -165,15 +175,39 @@ a:hover {
 	display: table;
 	clear: both;
 }
+
+#aboutColumn_container2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .line2 {
 	width: 800px;
 	border-bottom: 1px solid #CCCCCC;
-	margin: auto;
-	padding: 20px 20px;
+	/*margin: auto;*/
+	margin-bottom: 20px;
 	position: relative;
 }
 
+.small_img {
+	width: 370px;
+	margin-right: 30px;
 
+}
+
+.small_img2 {
+	width: 375px;
+}
+
+.large_img {
+	width: 790px;
+	margin-top: 20px;
+}
+
+.small_text {
+	width: 400px;
+}
 
 /*Work Pages Styling*/
 
@@ -341,6 +375,10 @@ body {
 #about_description {
 	font-weight: 400;
 	line-height: 40px;
+}
+
+.italic {
+	font-style: italic;
 }
 
 #footer {
