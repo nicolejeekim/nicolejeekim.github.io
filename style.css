@@ -59,11 +59,11 @@ li a {
 }
 
 #large_bio {
-	font-size: 72px;
-	line-height: 90px;
+	font-size: 50px;
+	line-height: 70px;
 	color: #8C8C8C;
 	font-weight: 300;
-	padding: 80px 225px 20px 0px;
+	padding: 100px 225px 40px 0px;
 	width: 1000px;
 	margin: auto;
 }
