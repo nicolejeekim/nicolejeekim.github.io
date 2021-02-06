@@ -330,6 +330,19 @@ body {
 	height: 550px;
 }
 
+.right_proj4 {
+	width: 50%;
+	height: 480px;
+}
+
+.header3 {
+	color: black;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+
 .header4 {
 	color: #8C8C8C;
 	font-weight: 400;
@@ -339,7 +352,7 @@ body {
 
 .bodytext {
 	font-weight: 400;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	line-height: 30px;
 }
 
