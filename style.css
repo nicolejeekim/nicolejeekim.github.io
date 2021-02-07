@@ -207,6 +207,7 @@ a:hover {
 	width: 800px;
 	border-bottom: 1px solid #CCCCCC;
 	/*margin: auto;*/
+	padding-top: 10px;
 	margin-bottom: 20px;
 	position: relative;
 }
