@@ -389,7 +389,26 @@ body {
 	height: 380px;
 }
 
+.line4 {
+	width: 1000px;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+	margin: auto;
+	padding-bottom: 120px;
+}
 
+.allprojects_navigation_row1{
+	margin: auto;
+	font-size: 22px;
+	text-align: center;
+}
+
+.navproject {
+	float: left;
+	padding-top: 10px;
+	width: 200px;
+	height: 40px;
+}
 /*About Page*/
 
 #about_header {
