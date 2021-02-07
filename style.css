@@ -5,6 +5,24 @@
 	box-sizing: border-box;
 }
 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*@keyframes slide-in {
+   0% {
+    top: -300px;
+  }
+  100% {
+    top: 0;
+  }
+}*/
+
 body {
 	font-family: 'Work Sans', sans-serif;
 	font-style: normal;
@@ -12,6 +30,8 @@ body {
 	font-size: 20px;
 	line-height: 40px;
 	margin-bottom: 100px;
+   animation: fade-in 1.5s ease;
+   -webkit-animation: fade-in 1.5s ease;
 }
 
 /*Top Navigation Bar*/
@@ -273,9 +293,6 @@ a:hover {
 
 /*Project View Page*/
 
-body {
-	/*width: 100%;*/
-}
 
 .modal-background {
     position: fixed;
